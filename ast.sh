@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 if ! [ $(id -u) = 0 ]; then
-   echo "How the fuck am I supposed to do do this shit without root accesss? Run me as root!"
+   echo "How the fuck am I supposed to do this shit without root accesss? Run me as root!"
    exit 1
 fi
 
