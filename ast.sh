@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+# w0osh/Asteriskness
 
 if ! [ $(id -u) = 0 ]; then
    echo "How the fuck am I supposed to do this shit without root accesss? Run me as root!"
@@ -15,7 +16,7 @@ cd asterisk-15.2.0
 ./configure 
 make && make install
 make samples
- make config
+make config
 asterisk
 echo "Connect to your Asterisk instance with asterisk -r for a pretty CLI!"
 echo "I will now enable asterisk as a service for you."
