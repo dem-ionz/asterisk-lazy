@@ -11,7 +11,7 @@ apt-get install build-essential
 apt-get install git-core subversion libjansson-dev sqlite autoconf automake libxml2-dev libncurses5-dev libtool make -y
 wget https://downloads.asterisk.org/pub/telephony/asterisk/asterisk-15-current.tar.gz
 tar -zxvf asterisk-15-current.tar.gz
-cd asterisk-15.2.0
+cd asterisk*
 ./contrib/scripts/install_prereq install
 ./configure 
 make && make install
