@@ -10,7 +10,7 @@ apt-get update
 apt-get install build-essential
 apt-get install git-core subversion libjansson-dev sqlite autoconf automake libxml2-dev libncurses5-dev libtool make -y
 wget http://downloads.asterisk.org/pub/telephony/asterisk/asterisk-16-current.tar.gz
-tar -zxvf asterisk-15-current.tar.gz
+tar -zxvf asterisk-16-current.tar.gz
 cd asterisk*
 ./contrib/scripts/install_prereq install
 ./configure 
