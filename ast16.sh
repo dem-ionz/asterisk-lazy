@@ -13,7 +13,7 @@ wget http://downloads.asterisk.org/pub/telephony/asterisk/asterisk-16-current.ta
 tar -zxvf asterisk-16-current.tar.gz
 cd asterisk*
 ./contrib/scripts/install_prereq install
-./configure 
+./configure --with-jansson-bundled
 make && make install
 make samples
 make config
